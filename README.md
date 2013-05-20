@@ -1,4 +1,6 @@
-To try this example, get the repo at https://github.com/jdevjram/gsapi-scribe-examples
+General Sentiment API Client examples for the Scribe JAVA OAuth 1.0 client library.
+
+To try these examples : 
  
 Run "mvn clean package" on the downloaded code.
 This will assemble a jar-file with the examples and the scribe dependency.
