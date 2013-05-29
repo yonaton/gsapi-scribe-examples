@@ -1,4 +1,4 @@
-General Sentiment API Client examples for the Scribe JAVA OAuth 1.0 client library.
+General Sentiment API Client examples for the Scribe JAVA OAuth 1.0 client library ( https://github.com/fernandezpablo85/scribe-java  )
 
 To try these examples : 
  

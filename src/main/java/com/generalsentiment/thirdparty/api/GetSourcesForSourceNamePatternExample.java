@@ -27,17 +27,17 @@ public class GetSourcesForSourceNamePatternExample {
 
         @Override
         public String getRequestTokenEndpoint() {
-            return "http://oauth.generalsentiment.com/oauth/request_token";
+            return "http://api.generalsentiment.com/oauth/request_token";
         }
 
         @Override
         public String getAccessTokenEndpoint() {
-            return "http://oauth.generalsentiment.com/oauth/access_token";
+            return "http://api.generalsentiment.com/oauth/access_token";
         }
 
         @Override
         public String getAuthorizationUrl(Token requestToken) {
-            return "http://oauth.generalsentiment.com/oauth/authorize?oauth_token=" + requestToken.getToken();
+            return "http://api.generalsentiment.com/oauth/authorize?oauth_token=" + requestToken.getToken();
         }
     }
 
